@@ -61,6 +61,7 @@ class InputSource(enum.Enum):
     DP2 = 0x10
     HDMI1 = 0x11
     HDMI2 = 0x12
+    USBC = 0x1B
 
 
 class InputSourceValueError(ValueError):
